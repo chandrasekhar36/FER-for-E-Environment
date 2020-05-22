@@ -5,8 +5,8 @@ First I collected the data from public dataset DAiSEE(Data with 9068 video seque
 Steps to be followed: (Read carefully to run)
 
 Step 1:
-Run Load_split_dataset module to load the data from directories and shuffle them and split them into 80% and 20% for trainig and testing purpose.Then, performe histogram equilization and store the same in pickle format 
+Run Load_split_dataset module to load the data from directories and shuffle them and split them into 80% and 20% for trainig and testing purpose.Then, performe contrast limited histogram equilization for evry image and store the same in pickle file.
 
-step 2: Run the Train_dataset module to train the model.Its a hybrid approach where the features are extracted from images using CNN followed by classification by SVM classifier. The trained model is saved in res.
+step 2: Run the Train_dataset module to train the model.Its a hybrid approach where the features are extracted from images using CNN followed by classification by SVM classifier. The trained model is available in res.
 
 step 3: Run the FER module to use the trained model.
