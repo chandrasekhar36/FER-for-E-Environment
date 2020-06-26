@@ -11,6 +11,8 @@ step 2: Run the Train_dataset module to train the model.Its a hybrid approach wh
 
 step 3: Run the FER module to use the trained model.
 
-The features are extracted from an handcrafted model apart from the CNN. Next, The both features are combined and then classify them with SVM
+The features are extracted from an handcrafted model apart from the CNN. Next, The both features are combined and trained over a traditional ML classifier.
 
-![Proposed Hybrid Model](https://github.com/chandrasekhar36/FER-for-E-Environment/blob/master/res/Hybrid_model%20Architecture.png)
+The proposed hybrid model can increase the accuracy(5% in this work). The Schematic diagram of proposed system is depicted below
+
+\t ![Proposed Hybrid Model](https://github.com/chandrasekhar36/FER-for-E-Environment/blob/master/res/Hybrid_model%20Architecture.png)
