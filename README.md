@@ -15,4 +15,4 @@ The features are extracted from an handcrafted model apart from the CNN. Next, T
 
 The proposed hybrid model can increase the accuracy(5% in this work). The Schematic diagram of proposed system is depicted below
 
-             ![Proposed Hybrid Model](https://github.com/chandrasekhar36/FER-for-E-Environment/blob/master/res/Hybrid_model%20Architecture.png)
+![Proposed Hybrid Model](https://github.com/chandrasekhar36/FER-for-E-Environment/blob/master/res/Hybrid_model%20Architecture.png?raw=true "Hybrid model")
