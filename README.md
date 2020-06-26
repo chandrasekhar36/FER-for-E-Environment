@@ -7,6 +7,9 @@ Steps to be followed: (Read carefully to run)
 Step 1:
 Run Load_split_dataset module to load the data from directories and shuffle them and split them into 80% and 20% for trainig and testing purpose.Then, performe contrast limited histogram equilization for evry image and store the same in pickle file.
 
-step 2: Run the Train_dataset module to train the model.Its a hybrid approach where the features are extracted from images using CNN followed by classification by SVM classifier. The trained model is available in res.
+step 2: Run the Train_dataset module to train the model.Its a hybrid approach where the features are extracted from images using (CNN + Handcarfted Model) followed by classification by SVM classifier. The trained model is available in res.
 
 step 3: Run the FER module to use the trained model.
+
+The features are extracted from an handcrafted model apart from the CNN. Next, The both features are combined and then classify them with SVM
+
