@@ -13,3 +13,4 @@ step 3: Run the FER module to use the trained model.
 
 The features are extracted from an handcrafted model apart from the CNN. Next, The both features are combined and then classify them with SVM
 
+![Proposed Hybrid Model](https://github.com/chandrasekhar36/FER-for-E-Environment/blob/master/res/Hybrid_model%20Architecture.png)
